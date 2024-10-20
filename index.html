@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="quiz-container">
+        <div class="quiz-header" id="quiz-header">
+            <h2 class="quiz-heading" > Quiz </h2>
+            <p class="quiz-question hidden" id="quiz-question">  </p>
+        </div>
+        <div class="quiz-body" id="quiz-body">
+            <div id="quizcompletehtml" class="hidden">
+                <h4 id="totalquestionhtml">  </h4>
+                <h4 id="correctanswerhtml">  </h4>
+            </div>
+            <button id="start-quiz"> Start quiz</button>
+            <form id="quiz-form" class="hidden">
+                    <div class="options">
+                        <input type="radio" id="optionone" name="option" value="">
+                    <label for="radio" id="optiononelabel">  </label>
+                    </div>
+                    <div class="options">
+                        <input type="radio" id="optiontwo" name="option" value="">
+                    <label for="optiontwo" id="optiontwolabel">  </label>
+                    </div>
+                    <div class="options">
+                        <input type="radio" id="optionthree" name="option" value="">
+                    <label for="optiontwo" id="optionthreelabel">  </label>
+                    </div>
+                    <div class="options">
+                        <input type="radio" id="optionfour" name="option" value="Brisbane">
+                    <label for="optiontwo" id="optionfourlabel">  </label>
+                    </div>    
+                
+                <button type="submit" id="submit"> Next </button>       
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/app.js"> </script>
+</body>
+</html>
